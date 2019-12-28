@@ -359,3 +359,8 @@
     background-color: dodgerblue ;
     border: solid 2px grey;
 }
+#message{
+    margin:20px 100px;
+    background-color: yellow;
+
+}

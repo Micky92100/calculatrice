@@ -33,13 +33,22 @@ function calcul() {
             return;
     }
 
-    alert(`${a} ${x} ${b} = ${result}`); 
+    alert(`${a} ${x} ${b} = ${result}`);
 }
-function unhide(){
-        document.getElementById("container").style.display = "block";
+function unhide() {
+    document.getElementById("container").style.display = "block";
 
 }
-function hide(){
+function hide() {
     document.getElementById("container").style.display = "none";
-    
+
+} function showMsgNumber() {
+    document.getElementById("message").innerText = "saisir un chiffre";
+
+} function clearMsg() {
+    document.getElementById("message").innerText = "";
+
+} 
+function showMsgOperator() {
+    document.getElementById("message").innerText = "selectionner un operateur : + - * / %";
 }
