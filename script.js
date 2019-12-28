@@ -1,5 +1,5 @@
 
-function calculate() {
+function calcul() {
     const form = document.getElementById("calculette");
     const a = parseFloat(form.elements[0].value);
     const b = parseFloat(form.elements[2].value);
