@@ -9,6 +9,14 @@
 </head>
 
 <body>
+   <div id="liens">
+      <a href="#" onclick="unhide()">Faire apparaître la calculatrice</a>
+       /
+       <a href="#" onclick="hide()">Faire disparaître la calculatrice</a>
+   
+    </div>
+   
+    <div id="container">
     <form id="calculette" action="" method="post">
         <input type="text">
         <select>
@@ -20,11 +28,12 @@
         </select>
 
         <input type="text">
-        <input type="submit" value="calculer" onclick="calcul()">
+        <input type="submit" value="OK" onclick="calcul()">
 
 
 
     </form>
+</div>
     <script type="text/javascript" src="script.js"></script>
 
 </body>

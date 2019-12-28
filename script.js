@@ -33,5 +33,13 @@ function calcul() {
             return;
     }
 
-    alert(`${a} ${x} ${b} = ${result}`);
+    alert(`${a} ${x} ${b} = ${result}`); 
+}
+function unhide(){
+        document.getElementById("container").style.display = "block";
+
+}
+function hide(){
+    document.getElementById("container").style.display = "none";
+    
 }
